@@ -1,10 +1,13 @@
 #include <stdio.h>
-#include "util.h"
+#include "fibo.h"
 
-int main(int c, char **argv){
+int main(int argc, char** argv){
 
-printf("%d\n", filesize(argv[1]));
+	printf("%i\n ",fibonacci(10));
 
 return 0;
 
 }
+
+
+
